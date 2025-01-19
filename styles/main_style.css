@@ -1,0 +1,11 @@
+.toggleLink {
+    text-decoration: none;
+}
+
+.taskCard {
+    transition: transform 0.3s;
+}
+
+.taskCard:hover {
+    transform: scale(1.03, 1.03);
+}
