@@ -50,14 +50,6 @@ users (Collection)
 │       │   ├── status: String ("pending" or "completed")
 │       │   └── userId: String (Reference to the user)
 ```
-+-------------------+          +-------------------+
-|      Users        |          |      Tasks        |
-+-------------------+          +-------------------+
-| email: String     |<-------->| title: String     |
-+-------------------+          | description: String|
-                               | status: String    |
-                               | userId: String    |
-                               +-------------------+
 
 ## Data Model
 
